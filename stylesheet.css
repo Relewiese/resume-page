@@ -5,9 +5,15 @@ body {
 }
 
 h1 {
+  font-family: 'Pinyon Script', cursive;
   font-size: 48px;
-  font-family: sans-serif;
-  color: #fff;
+  color: #000;
   margin-left: 100px;
   margin-top: 250px;
+}
+
+h6 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: #666;
 }
