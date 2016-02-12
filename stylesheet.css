@@ -6,34 +6,20 @@ body {
 p {
   font-family: 'Roboto', sans-serif;
 }
+.widthRestrictor {
+  width: 900px;
+}
 .intro p {
   font-size: 18px;
   color: #ccc;
-	margin: 25px 150px 0px 150px;
-}
-.intro h3{
-	font-size: 20px;
-	color: #fff;
-	margin: 150px 150px 0px 150px;
-	text-decoration: underline;
-}
-.eduCred p{
-	font-size: 18px;
-	color: #fff;
-	margin: 25px 0px 0px 135px;
-}
-.eduCred h3 {
-	font-size: 20px;
-	color: #fff;
-	margin: 50px 0px 0px 135px;
-	text-decoration: underline;
+  margin: 25px 0px 0px;
 }
 .navigation h1 {
   display: inline-block;
   font-family: 'Pinyon Script', cursive;
   font-size: 48px;
   color: #fff;
-	margin: 250px 50px 0px 100px;
+  margin: 250px 0px 0px 0px;
 }
 .navigation ul {
   display: inline-block;
@@ -44,19 +30,58 @@ p {
   font-size: 20px;
   color: #666;
   list-style: none;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 35px 0px 35px;
 }
-
+.navigation a {
+  color: #fff;
+}
 .introHeading {
-	font-size: 20px;
-	color: #ccc;
-	margin: 150px 150px 0px 150px;
-	text-decoration: underline;
+  font-size: 20px;
+  color: #ccc;
+  margin: 150px 0px 0px 0px;
 }
-
 .eduHeading {
-	font-size: 20px;
-	color: #ccc;
-	margin: 50px 150px 0px 150px;
-	text-decoration: underline;
+  font-size: 20px;
+  color: #ccc;
+  margin: 50px 0px 0px;
+}
+.padFixer {
+  padding: 0px;
+}
+.subTitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #ccc;
+  margin-top: 20px;
+}
+.location {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #ccc;
+}
+.datesEnd {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #ccc;
+  font-style: italic;
+}
+.description {
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #ccc;
+  line-height: 25px;
+}
+.horLine {
+  border-bottom: 1px solid #666;
+  padding-bottom: 15px;
+}
+.employHeading {
+  font-size: 20px;
+  color: #ccc;
+  margin: 50px 0px 0px;
+}
+.underlineSpan {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ccc;
 }
